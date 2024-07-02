@@ -1,0 +1,37 @@
+/* Links padrão */
+a {
+    color: #FF4500; /* Cor de destaque */
+    font-weight: bold;
+}
+
+/* Links sobrepostos */
+a:hover {
+    color: #FF6347; /* Tonalidade mais clara/escura */
+}
+
+/* Links visitados */
+a:visited {
+    font-weight: normal;
+}
+
+
+/* Seção principal */
+.main p:first-of-type::first-letter {
+    font-size: 3em; /* Tamanho de fonte 3 vezes maior */
+    font-family: 'Times New Roman', serif; /* Fonte diferente */
+    float: left; /* Flutuando à esquerda */
+    margin-right: 0.1em; /* Espaçamento entre a letra e o texto */
+}
+
+
+/* Borda superior em todos os itens de menu */
+.sidebar .design-selection nav ul li {
+    border-top: 1px solid #000; /* Borda superior */
+}
+
+/* Borda inferior apenas no último item */
+.sidebar .design-selection nav ul li:last-child {
+    border-bottom: 1px solid #000; /* Borda inferior */
+}
+
+
